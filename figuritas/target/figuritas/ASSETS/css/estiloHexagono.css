@@ -1,0 +1,42 @@
+
+form{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 10;
+    width: 300px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:60px;
+}
+input{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.center-content{
+    text-align: center;
+}
+img{
+    height: 90px;
+}
+.button {
+    background-color: #aa8caf; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
