@@ -80,9 +80,6 @@ header .texto-header {
 .menu-figuras {
   display: flex;
   justify-content: space-evenly;
-}
-
-.menu-figuras {
   background: #f2f2f2;
 }
 
