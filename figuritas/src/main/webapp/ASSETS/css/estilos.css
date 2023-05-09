@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contendor {
@@ -34,11 +34,8 @@ header {
   width: 100%;
   height: 600px;
   background: #7F7FD5;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #91EAE4, #86a8e796, #7F7FD5), 
-  url(https://educacion30.b-cdn.net/wp-content/uploads/2022/07/figuras-geometricas.jpg);
-  background: linear-gradient(to right, #91EAE4, #86a8e796, #7F7FD5),
-  url(https://educacion30.b-cdn.net/wp-content/uploads/2022/07/figuras-geometricas.jpg);
+  background: -webkit-linear-gradient(to right, #91EAE4, #86a8e796, #7F7FD5), url(https://educacion30.b-cdn.net/wp-content/uploads/2022/07/figuras-geometricas.jpg);
+  background: linear-gradient(to right, #91EAE4, #86a8e796, #7F7FD5), url(https://educacion30.b-cdn.net/wp-content/uploads/2022/07/figuras-geometricas.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -56,7 +53,7 @@ nav>a {
   margin-right: 10px;
 }
 
-nav > a:hover {
+nav>a:hover {
   text-decoration: underline;
 }
 
@@ -84,9 +81,6 @@ header .texto-header {
 .menu-figuras {
   display: flex;
   justify-content: space-evenly;
-}
-
-.menu-figuras {
   background: #f2f2f2;
 }
 
@@ -94,14 +88,11 @@ header .texto-header {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-.contenedor {
   width: 24%;
   margin-bottom: 10px;
 }
 
-.contenedor > img {
+.contenedor>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
