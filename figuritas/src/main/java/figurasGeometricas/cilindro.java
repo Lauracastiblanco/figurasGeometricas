@@ -1,16 +1,20 @@
-package figurasGeometricas;
+package figurasgeometricas;
 
 import java.util.Scanner;
 
-public class cilindro extends figura{
+public class Cilindro extends Figura{
 
     private double radio
+        
     private double altura
+        
     private double area,
+    
     private double perimetro;
+    
     public cilindro(){
-
     }
+    
     public cilindro(double radio, double altura, double perimetro, double area){
         this.radio = radio;
         this.altura = altura; 
