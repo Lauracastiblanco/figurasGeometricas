@@ -39,6 +39,11 @@ header {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+   background: -moz-linear-gradient(...); /* FF3.6+ */
+ background: -webkit-gradient(...); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(...); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(...); /* Opera 11.10+ */
+ background: -ms-linear-gradient(...); /* IE10+ */
 }
 
 nav {
