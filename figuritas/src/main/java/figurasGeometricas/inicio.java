@@ -1,8 +1,9 @@
-package figurasGeometricas;
+package figurasgeometricas;
 
 import java.util.Scanner;
 
-public class inicio {
+public class Inicio {
+    
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
         int opcion;
