@@ -7,7 +7,8 @@ public class Inicio {
     public static void main(String[] args) {
         Scanner lector = new Scanner(System.in);
         int opcion;
-        System.out.println("Bienvenido, elige la figura: \n1. Hexagono \n2. Radio. \n3. Cilindro ");
+        System.out.println("Bienvenido, elige la figura:");
+        System.out.println("\n1. Hexagono \n2. Radio. \n3. Cilindro ");
         opcion = lector.nextInt();
         switch (opcion) {
             case 1:
