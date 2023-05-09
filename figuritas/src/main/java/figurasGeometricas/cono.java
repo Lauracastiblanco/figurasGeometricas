@@ -19,6 +19,7 @@ public class cono extends figura{
     public cono(){
 
     }
+    
     public cono(double radio, double altura, double generatriz, double area, double perimetro){
         this.radio = radio;
         this.altura = altura;
