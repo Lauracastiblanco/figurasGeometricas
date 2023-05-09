@@ -5,7 +5,17 @@ import java.util.Scanner;
 public class cono extends figura{
 
     Scanner lector = new Scanner(System.in);
-    private double radio, altura, generatriz, area, perimetro;
+    
+    private double radio;
+    
+    private double altura;
+    
+        private double generatriz;
+    
+        private double area;
+    
+        private double perimetro;
+    
     public cono(){
 
     }
