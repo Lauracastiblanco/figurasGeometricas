@@ -1,8 +1,8 @@
-package figurasGeometricas;
+package figurasgeometricas;
 
 import java.util.Scanner;
 
-public class cono extends figura{
+public class Cono extends Figura{
 
     Scanner lector = new Scanner(System.in);
     
