@@ -8,14 +8,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.contendor {
-  padding: 60px;
-  width: 90px;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
-
 .nombre-figuras {
   color: #8e6995;
   font-size: 30px;
@@ -90,6 +82,11 @@ header .texto-header {
   flex-wrap: wrap;
   width: 24%;
   margin-bottom: 10px;
+  padding: 60px;
+  width: 90px;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
 
 .contenedor>img {
