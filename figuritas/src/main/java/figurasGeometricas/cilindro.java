@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class cilindro extends figura{
 
-    private double radio, altura, area, perimetro;
+    private double radio
+    private double altura
+    private double area,
+    private double perimetro;
     public cilindro(){
 
     }
